@@ -12,9 +12,6 @@
 
   <h1 style="color:#d1d1d1; font-size:15px; font-weight: lighter;">哈囉 我是呆呆！<br/>下面都是關於我的連結哦！</h1>
 
-
-
-
   <div class="width60">
 
 <hr style="margin-top:20px;" id="頻道分隔線">
@@ -30,9 +27,7 @@
       </a>
     </div>
 
-
-  <div class="column">
-    <div class="link-box" style="margin-right: 5px;">
+    <div class="link-box">
       <a href="https://www.twitch.tv/jack_xd_tw" target="_blank">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/2111/2111727.png" width height="50" style="vertical-align: middle; margin-right: 20px">
@@ -40,9 +35,8 @@
         </div>
       </a>
     </div>
-  </div>
-  <div class="column">
-    <div class="link-box" style="margin-left: 5px; margin-bottom: 10px;">
+
+    <div class="link-box">
       <a href="https://space.bilibili.com/609061952" target="_blank">
         <div class="box">
           <img src="https://icons-for-free.com/download-icon-bilibili-1324440130309119028_512.png" width height="50" style="vertical-align: middle; margin-right: 20px">
@@ -50,10 +44,8 @@
         </div>
       </a>
     </div>
-  </div>
 
-
-<hr id="社交分隔線">
+<hr style="margin-top:20px;" id="社交分隔線">
 <a style="color: white;">社交類別 Social</a>
 <hr id="社交分隔線">
 
@@ -66,8 +58,7 @@
       </a>
     </div>
 
-    <div class="column">
-    <div class="link-box" style="margin-right: 5px;">
+    <div class="link-box">
       <a href="https://fb.com/jackyt733" target="_blank">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/1051/1051309.png" width height="50" style="vertical-align: middle; margin-right: 20px">
@@ -75,9 +66,8 @@
         </div>
       </a>
     </div>
-  </div>
-  <div class="column">
-    <div class="link-box" style="margin-left: 5px; margin-bottom: 10px;">
+
+    <div class="link-box">
       <a href="https://instagram.com/ytjackxd" target="_blank">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png" width height="50" style="vertical-align: middle; margin-right: 20px">
@@ -85,14 +75,12 @@
         </div>
       </a>
     </div>
-  </div>
 
 <hr style="margin-top:20px;" id="網站分隔線">
 <a style="color: white;">網站類別 Website</a>
 <hr id="網站分隔線">
 
-  <div class="column">
-        <div class="link-box" style="margin-right: 5px;">
+    <div class="link-box">
       <a href="https://xn--0rra190d0uz.ml/" target="_blank">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/676/676265.png" width height="50" style="vertical-align: middle; margin-right: 20px">
@@ -100,10 +88,8 @@
         </div>
       </a>
     </div>
-  </div>
 
-  <div class="column">
-     <div class="link-box" style="margin-left: 5px; margin-bottom: 10px;">
+    <div class="link-box">
       <a href="https://www.kjd-band.xyz" target="_blank">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/831/831337.png" width height="50" style="vertical-align: middle; margin-right: 20px">
@@ -111,14 +97,12 @@
         </div>
       </a>
     </div>
-  </div>
 
 <hr style="margin-top:20px;" id="其他分隔線">
 <a style="color: white;">其他類別 Others</a>
 <hr id="其他分隔線">
 
-  <div class="column">
-    <div class="link-box" style="margin-right: 5px;">
+    <div class="link-box">
       <a href="#copy" onclick="copyToClipboard()">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/181/181531.png" width height="50" style="vertical-align: middle; margin-right: 20px">
@@ -126,11 +110,9 @@
         </div>
       </a>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="link-box" style="margin-left: 5px; margin-bottom: 10px">
-       <a href="dev.html">
+    <div class="link-box">
+      <a href="dev.html">
         <div class="box" style="background-color:#4d4d4d">
           <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px; color: white;">開發版本</span>
@@ -158,9 +140,10 @@ Stable Version 1.4
 </center>
 </body>
 
+
 <style type="text/css">
 .width60{
-width: 60%;
+width: 80%;
 }
 
 body{
@@ -170,7 +153,6 @@ body{
   font-size: 20;
   background-image: url("https://links.xn--0rra190d0uz.ml/bg.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .box{
@@ -198,14 +180,7 @@ a:visited {
 
 
 @keyframes beat{
-  to { transform: scale(1.03); }
-}
-
-li{margin-bottom: 10px}
-
-.column {
-  float: left;
-  width: 50%;
+  to { transform: scale(1.05); }
 }
 
 
@@ -222,7 +197,7 @@ inputc.parentNode.removeChild(inputc);
 alert("本站連結已複製！");
 }
 
-if (screen.width <= 699) {
-document.location = "mindex.html";
+if (screen.width >= 699) {
+document.location = "index.html";
 }
 </script>
