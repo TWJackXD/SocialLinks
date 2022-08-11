@@ -19,7 +19,7 @@
 <hr id="頻道分隔線">
 
     <div class="link-box">
-      <a href="https://youtube.com/小狼呆呆" target="_blank">
+      <a onclick="youtube()" style="cursor: pointer;">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">ＹＴ頻道</span>
@@ -28,7 +28,7 @@
     </div>
 
     <div class="link-box">
-      <a href="https://www.twitch.tv/jack_xd_tw" target="_blank">
+      <a onclick="twitch()" style="cursor: pointer;">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/2111/2111727.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">圖奇頻道</span>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="link-box">
-      <a href="https://space.bilibili.com/609061952" target="_blank">
+      <a onclick="bilibili()" style="cursor: pointer;">
         <div class="box">
           <img src="https://icons-for-free.com/download-icon-bilibili-1324440130309119028_512.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">Ｂ站空間</span>
@@ -50,7 +50,7 @@
 <hr id="社交分隔線">
 
     <div class="link-box">
-      <a href="https://discord.gg/q3VN5fz" target="_blank">
+      <a onclick="discord()" style="cursor: pointer;">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/5968/5968898.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">ＤＣ群組</span>
@@ -59,7 +59,7 @@
     </div>
 
     <div class="link-box">
-      <a href="https://fb.com/jackyt733" target="_blank">
+      <a onclick="facebook()" style="cursor: pointer;">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/1051/1051309.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">個人ＦＢ</span>
@@ -68,7 +68,7 @@
     </div>
 
     <div class="link-box">
-      <a href="https://instagram.com/ytjackxd" target="_blank">
+      <a onclick="instagram()" style="cursor: pointer;">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">個人ＩＧ</span>
@@ -81,7 +81,7 @@
 <hr id="網站分隔線">
 
     <div class="link-box">
-      <a href="https://xn--0rra190d0uz.ml/" target="_blank">
+      <a onclick="website()" style="cursor: pointer;">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/676/676265.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">狼窩網站</span>
@@ -90,7 +90,7 @@
     </div>
 
     <div class="link-box">
-      <a href="https://www.kjd-band.xyz" target="_blank">
+      <a onclick="band()" style="cursor: pointer;">
         <div class="box">
           <img src="https://cdn-icons-png.flaticon.com/512/831/831337.png" width height="50" style="vertical-align: middle; margin-right: 20px">
           <span style="margin-left: 20px">樂團網站</span>
@@ -139,6 +139,7 @@
   <li>2022-08-11 02:54 手機模式更新<br>  　Updated Mobile Mode</li>
   <li>2022-08-11 02:55 同步穩定版本<br>  　Synced stable version</li>
   <li>2022-08-11 02:56 上傳Github<br>  　Uploaded to Github</li>
+  <li>2022-08-11 19:07 改為JS轉址<br>  　Changed to JavaScript open URL</li>
 </ui>
 </div>
 
@@ -221,5 +222,46 @@ alert("本站連結已複製！");
 
 if (screen.width >= 699) {
 document.location = "dev.html";
+}
+
+
+function youtube()
+{
+window.open('https://youtube.com/小狼呆呆','_blank');
+}
+
+function twitch()
+{
+window.open('https://www.twitch.tv/jack_xd_tw','_blank');
+}
+
+function bilibili()
+{
+window.open('https://space.bilibili.com/609061952','_blank');
+}
+
+function discord()
+{
+window.open('https://discord.gg/q3VN5fz','_blank');
+}
+
+function facebook()
+{
+window.open('https://fb.com/jackyt733','_blank');
+}
+
+function instagram()
+{
+window.open('https://instagram.com/ytjackxd','_blank');
+}
+
+function website()
+{
+window.open('https://xn--0rra190d0uz.ml/','_blank');
+}
+
+function band()
+{
+window.open('https://www.kjd-band.xyz','_blank');
 }
 </script>
